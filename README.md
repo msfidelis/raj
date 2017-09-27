@@ -83,3 +83,11 @@ console.log(rand);
 // 5...
 ```
 
+# Math Indian Helpers
+
+> Comming soon...
+
+# Objects Indian Helpers
+
+> Comming soon...
+
