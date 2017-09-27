@@ -70,3 +70,16 @@ console.log(sum);
 
 // 50
 ```
+
+### Random Item in Array 
+
+```javascript
+let array = [5, 5, 10, 30];
+
+let rand = raj.randItem(array);
+
+console.log(rand);
+
+// 5...
+```
+

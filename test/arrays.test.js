@@ -48,6 +48,15 @@ describe("#Arrays Test", () => {
         let sum = raj.sumArray(array);
 
         expect(sum).to.be.equal(50);
-    });         
+    });     
+    
+    
+    it("#raj.randItem() - random item in array value", () => {
+        
+        let array = [5, 5, 10, 30];
+        let rand = raj.randItem(array);
+
+        expect(array).to.be.an('array').that.contains(rand);
+    });    
 
 });
