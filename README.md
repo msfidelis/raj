@@ -1,4 +1,5 @@
 # Raj - Toolset DANGER! [![Build Status](https://travis-ci.org/msfidelis/raj.svg?branch=master)](https://travis-ci.org/msfidelis/raj) [![Coverage Status](https://coveralls.io/repos/github/msfidelis/raj/badge.svg?branch=master)](https://coveralls.io/github/msfidelis/raj?branch=master)
+
 My toolset of day a day, in a simple library. 
 
 Made with love :heart:
@@ -53,4 +54,15 @@ let common = raj.common(arr1, arr2);
 console.log(common);
 
 // [ 4 ]
+```
+
+### Array Sum
+
+```javascript
+let array = [5, 5, 10, 30];
+
+let sum = raj.sumArray(array);
+
+console.log(sum);
+// 50
 ```

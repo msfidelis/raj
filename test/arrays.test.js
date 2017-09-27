@@ -41,4 +41,13 @@ describe("#Arrays Test", () => {
         expect(common).to.be.an('array').and.to.deep.equal([4]);
     });       
 
+
+    it("#raj.sumArray() - sum array values", () => {
+        
+        let array = [5, 5, 10, 30];
+        let sum = raj.sumArray(array);
+
+        expect(sum).to.be.equal(50);
+    });         
+
 });
