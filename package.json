@@ -1,0 +1,23 @@
+{
+  "name": "raj",
+  "version": "1.0.0",
+  "description": "My toolset",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msfidelis/raj.git"
+  },
+  "keywords": [
+    "toolset",
+    "toolkit"
+  ],
+  "author": "Matheus Fidelis (Raj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msfidelis/raj/issues"
+  },
+  "homepage": "https://github.com/msfidelis/raj#readme"
+}
