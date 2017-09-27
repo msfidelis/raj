@@ -67,5 +67,6 @@ let array = [5, 5, 10, 30];
 let sum = raj.sumArray(array);
 
 console.log(sum);
+
 // 50
 ```
