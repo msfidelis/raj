@@ -2,7 +2,7 @@
   "name": "raj",
   "version": "1.0.0",
   "description": "My toolset",
-  "main": "lib/index.js",
+  "main": "lib/raj.js",
   "scripts": {
     "test": "mocha",
     "coverage": "nyc --reporter=html npm run test"
