@@ -111,4 +111,14 @@ console.log(batch);
 
 # String Indian Helpers
 
-> Coming soon...
+### Is string 
+
+```javascript
+const result = raj.isString('hello');
+
+const string = 'hello'
+const number = 12321
+
+raj.isString(string); // true
+raj.isString(number); // false
+```
