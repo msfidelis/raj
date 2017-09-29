@@ -109,7 +109,7 @@ console.log(batch);
 
 > Coming soon...
 
-# String Indian Helpers
+# Validation Indian Helpers
 
 ### Is string 
 
@@ -121,4 +121,24 @@ const number = 12321
 
 raj.isString(string); // true
 raj.isString(number); // false
+```
+
+### Is Object 
+
+```javascript
+const string = 'hello';
+const object = {a:1};
+
+raj.isObject(string); // false
+raj.isObject(object); // true
+```
+
+### Is Number 
+
+```javascript
+const string = 'hello'
+const number = 12321
+
+raj.isNumber(string); // false
+raj.isNumber(number); // true
 ```
