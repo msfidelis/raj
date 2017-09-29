@@ -4,7 +4,7 @@ const raj = require("../lib/raj");
 
 const expect = require("chai").expect;
 
-describe("#String Test", () => {
+describe("#Validations Test", () => {
 
   it("#raj.isString", () => {
 
