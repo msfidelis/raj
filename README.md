@@ -142,3 +142,19 @@ const number = 12321
 raj.isNumber(string); // false
 raj.isNumber(number); // true
 ```
+
+### Is Array 
+
+```javascript
+const string = "Hello";
+
+const object = {
+    hello: "value"
+};
+
+const array = [1, 2, 3];
+
+raj.isArray(string); //false
+raj.isArray(object); //false
+raj.isArray(array); //true
+```

@@ -45,4 +45,22 @@ describe("#Validations Test", () => {
         expect(raj.isNumber(object)).to.be.false;
         expect(raj.isNumber(number)).to.be.true;
     });
+
+
+    it("#raj.isArray()", () => {
+
+        const string = "Hello";
+        const number = 123;
+
+        const object = {
+            hello: "value"
+        };
+
+        const array = [1, 2, 3];
+
+        expect(raj.isArray(string)).to.be.false;
+        expect(raj.isArray(object)).to.be.false;
+        expect(raj.isArray(number)).to.be.false;
+        expect(raj.isArray(array)).to.be.true;
+    });
 });
