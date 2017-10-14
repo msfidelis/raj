@@ -101,6 +101,34 @@ console.log(batch);
 //  [ 16, 17 ] ]
 ```
 
+### Split arrays by determinate object key item
+
+> This shit save my life in parallel processing 
+
+```javascript
+
+let expendables = [
+    {queue: "a", data: "Barney Ross"},
+    {queue: "a", data: "Lee Christmas"},
+    {queue: "b", data: "Yin Yang"},
+    {queue: "c", data: "Gunnar Jensen"},
+    {queue: "c", data: "Paine"}
+];
+
+let queues = raj.plop(expendables, 'queue');
+
+console.log(queues);
+
+// { 
+//     a: [ { queue: 'a', data: 'Barney Ross' },
+//      { queue: 'a', data: 'Lee Christmas' }],
+//     b: [ { queue: 'b', data: 'Yin Yang' } ],
+//     c: [ { queue: 'c', data: 'Gunnar Jensen' },
+//      { queue: 'c', data: 'Paine' } ] 
+// }
+
+``` 
+
 # Math Indian Helpers
 
 > Coming soon...

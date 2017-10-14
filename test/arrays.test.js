@@ -90,7 +90,7 @@ describe("#Arrays Test", () => {
         expect(queues.a).to.be.an('array').to.have.deep.members([ {queue: "a", data: "Barney Ross"}, {queue: "a", data: "Lee Christmas"} ]);
         expect(queues.b).to.be.an('array').to.have.deep.members([ {queue: "b", data: "Yin Yang"} ]);
         expect(queues.c).to.be.an('array').to.have.deep.members([ {queue: "c", data: "Gunnar Jensen"}, {queue: "c", data: "Paine"} ]);
-        
+
     });
 
 });
