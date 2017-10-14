@@ -74,4 +74,23 @@ describe("#Arrays Test", () => {
     });
     
 
+    it("#raj.plop() - Create arrays organized by object field", () => {
+        
+        let expendables = [
+            {queue: "a", data: "Barney Ross"},
+            {queue: "a", data: "Lee Christmas"},
+            {queue: "b", data: "Yin Yang"},
+            {queue: "c", data: "Gunnar Jensen"},
+            {queue: "c", data: "Paine"}
+        ];
+
+        let queues = raj.plop(expendables, 'queue');
+
+        expect(queues).to.be.an('object');
+        expect(queues.a).to.be.an('array').to.have.deep.members([ {queue: "a", data: "Barney Ross"}, {queue: "a", data: "Lee Christmas"} ]);
+        expect(queues.b).to.be.an('array').to.have.deep.members([ {queue: "b", data: "Yin Yang"} ]);
+        expect(queues.c).to.be.an('array').to.have.deep.members([ {queue: "c", data: "Gunnar Jensen"}, {queue: "c", data: "Paine"} ]);
+        
+    });
+
 });
