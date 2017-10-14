@@ -107,6 +107,19 @@ console.log(batch);
 
 # Objects Indian Helpers
 
+### Select from object
+```javascript
+const object = {
+    name: 'hello',
+    id: 3123423,
+    lorem: 'ipsum',
+    music: 'hello darkness my old friend',
+    raj: 'http://awesome'
+}
+
+raj.selectFromObject(object, ['name', 'id']) // {name: 'hello', id: 3123423}
+```
+
 > Coming soon...
 
 # Validation Indian Helpers
