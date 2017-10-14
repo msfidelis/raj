@@ -10,42 +10,6 @@ Made with love :heart:
 
 ![Dancing](https://media.giphy.com/media/T6S6dSvPpkp1e/giphy.gif)
 
-### Is Object 
-
-```javascript
-const string = 'hello';
-const object = {a:1};
-
-raj.isObject(string); // false
-raj.isObject(object); // true
-```
-
-### Is Number 
-
-```javascript
-const string = 'hello'
-const number = 12321
-
-raj.isNumber(string); // false
-raj.isNumber(number); // true
-```
-
-### Is Array 
-
-```javascript
-const string = "Hello";
-
-const object = {
-    hello: "value"
-};
-
-const array = [1, 2, 3];
-
-raj.isArray(string); //false
-raj.isArray(object); //false
-raj.isArray(array); //true
-```
-
 
 # Indian Installation 
 
@@ -158,23 +122,7 @@ const number = 12321
 raj.isString(string); // true
 raj.isString(number); // false
 ```
-<<<<<<< HEAD
 
-### Is Object 
-
-```javascript
-const string = 'hello';
-const object = {a:1};
-
-raj.isObject(string); // false
-raj.isObject(object); // true
-```
-
-### Is Number 
-
-```javascript
-const string = 'hello'
-co
 ### Is Object 
 
 ```javascript
@@ -210,26 +158,3 @@ raj.isArray(string); //false
 raj.isArray(object); //false
 raj.isArray(array); //true
 ```
-nst number = 12321
-
-raj.isNumber(string); // false
-raj.isNumber(number); // true
-```
-
-### Is Array 
-
-```javascript
-const string = "Hello";
-
-const object = {
-    hello: "value"
-};
-
-const array = [1, 2, 3];
-
-raj.isArray(string); //false
-raj.isArray(object); //false
-raj.isArray(array); //true
-```
-=======
->>>>>>> dec5d73c4837ca7e5030db9a8954059e03c6a417
