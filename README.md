@@ -158,6 +158,7 @@ const number = 12321
 raj.isString(string); // true
 raj.isString(number); // false
 ```
+<<<<<<< HEAD
 
 ### Is Object 
 
@@ -230,3 +231,5 @@ raj.isArray(string); //false
 raj.isArray(object); //false
 raj.isArray(array); //true
 ```
+=======
+>>>>>>> dec5d73c4837ca7e5030db9a8954059e03c6a417
