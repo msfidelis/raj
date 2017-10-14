@@ -120,8 +120,6 @@ const object = {
 raj.selectFromObject(object, ['name', 'id']) // {name: 'hello', id: 3123423}
 ```
 
-> Coming soon...
-
 # Validation Indian Helpers
 
 ### Is string 
