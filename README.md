@@ -14,7 +14,7 @@ Made with love :heart:
 # Indian Installation 
 
 ```bash
-npm install --save raj
+npm install --save raj-tools
 ```
 
 # Arrays Indian Helpers
