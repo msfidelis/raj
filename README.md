@@ -148,6 +148,19 @@ const object = {
 raj.selectFromObject(object, ['name', 'id']) // {name: 'hello', id: 3123423}
 ```
 
+### Extend objects values
+
+```javascript
+const defaultValues = { host: "127.0.0.1", port: "6379", database: "default"};
+const connectionValus = { host: "54.178.12.44", database: "raj"};
+
+const newobject = raj.extend(defaultValues, connectionValus);
+
+console.log(newobject)
+
+// { host: '54.178.12.44', port: '6379', database: 'raj' }
+```
+
 # Validation Indian Helpers
 
 ### Is string 
