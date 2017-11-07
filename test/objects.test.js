@@ -31,4 +31,31 @@ describe("#Objects Test", () => {
             
   });
 
+
+  it("#raj.copy", () => {
+    
+    const obj = {a: 'b', c: 'd'};
+    const copy = raj.copy(obj);
+
+    expect(obj).to.be.an('object').to.deep.equal(copy);
+
+    obj.e = "f";
+    expect(obj).to.be.an('object').to.not.be.equal(copy);
+                
+  });
+
+
+  it("#raj.merge", () => {
+
+    const objectReference = { food: 'pizza', car: 'ford', animal: 'dog' };
+    
+    const object1 =  { food: 'pizza', car: 'ford' };
+    const object2 =  { animal: 'dog' };
+
+    const object3 = raj.merge(object1, object2);
+
+    expect(object3).to.be.an('object').to.deep.equal(objectReference);
+                    
+  });
+
 });
