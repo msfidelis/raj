@@ -63,4 +63,15 @@ describe("#Validations Test", () => {
         expect(raj.isArray(number)).to.be.false;
         expect(raj.isArray(array)).to.be.true;
     });
+
+
+
+    it("#raj.isNaN()", () => {
+        
+        expect(raj.isNaN(123)).to.be.false;
+        expect(raj.isNaN(-1.23)).to.be.false;
+        expect(raj.isNaN(5-2)).to.be.false;
+        expect(raj.isNaN('modafoca')).to.be.true;
+
+    });
 });
