@@ -148,6 +148,27 @@ const object = {
 raj.selectFromObject(object, ['name', 'id']) // {name: 'hello', id: 3123423}
 ```
 
+### Copy Objects
+
+```javascript
+const obj = {a: 'b', c: 'd'};
+const copy = raj.copy(obj);
+```
+
+### Merge Objects
+
+```javascript
+const object1 =  { food: 'pizza', car: 'ford' };
+const object2 =  { animal: 'dog' };
+
+const object3 = raj.merge(object1, object2);
+
+console.log(object3);
+
+// { food: 'pizza', car: 'ford', animal: 'dog' }
+```
+
+
 ### Extend objects values
 
 ```javascript
