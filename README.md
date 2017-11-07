@@ -148,6 +148,40 @@ const object = {
 raj.selectFromObject(object, ['name', 'id']) // {name: 'hello', id: 3123423}
 ```
 
+### Copy Objects
+
+```javascript
+const obj = {a: 'b', c: 'd'};
+const copy = raj.copy(obj);
+```
+
+### Merge Objects
+
+```javascript
+const object1 =  { food: 'pizza', car: 'ford' };
+const object2 =  { animal: 'dog' };
+
+const object3 = raj.merge(object1, object2);
+
+console.log(object3);
+
+// { food: 'pizza', car: 'ford', animal: 'dog' }
+```
+
+
+### Extend objects values
+
+```javascript
+const defaultValues = { host: "127.0.0.1", port: "6379", database: "default"};
+const connectionValus = { host: "54.178.12.44", database: "raj"};
+
+const newobject = raj.extend(defaultValues, connectionValus);
+
+console.log(newobject)
+
+// { host: '54.178.12.44', port: '6379', database: 'raj' }
+```
+
 # Validation Indian Helpers
 
 ### Is string 
