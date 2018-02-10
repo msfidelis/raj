@@ -1,6 +1,6 @@
 {
     "name": "raj-tools",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "My toolset",
     "main": "lib/raj.js",
     "scripts": {
