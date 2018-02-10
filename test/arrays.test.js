@@ -51,10 +51,10 @@ describe("#Arrays Test", () => {
     });     
     
 
-    it("#raj.randItem() - random item in array value", () => {
+    it("#raj.randomItem() - random item in array value", () => {
         
         let array = [5, 5, 10, 30];
-        let rand = raj.randItem(array);
+        let rand = raj.randomItem(array);
 
         expect(array).to.be.an('array').that.contains(rand);
     });   
