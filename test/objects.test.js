@@ -58,4 +58,14 @@ describe("#Objects Test", () => {
                     
   });
 
+  it('#raj.cleanObject', () => {
+
+    const objectReference = {a: undefined, b: "", c: "value"};
+    const objectToTest = {c: "value"};
+    const cleanObject = raj.cleanObject(objectReference);
+    
+    expect(cleanObject).to.be.an('object').to.not.be.equal(objectToTest);
+
+  });
+
 });
