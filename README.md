@@ -182,6 +182,19 @@ console.log(newobject)
 // { host: '54.178.12.44', port: '6379', database: 'raj' }
 ```
 
+### Clean Objects (empty and undefined values)
+
+
+```javascript
+const objectReference = {a: undefined, b: "", c: "value"};
+const objectToTest = {c: "value"};
+const cleanObject = raj.cleanObject(objectReference);
+
+console.log(cleanObject); 
+
+// {c: 'value'}
+```
+
 # Validation Indian Helpers
 
 ### Is string 
