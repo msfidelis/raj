@@ -22,10 +22,10 @@ npm install --save raj-tools
 ### Difference between 2 arrays 
 
 ```javascript
-let array1 = [1, 2, 3, 4];
-let array2 = [3, 4, 5, 6];
+const array1 = [1, 2, 3, 4];
+const array2 = [3, 4, 5, 6];
 
-let diff = raj.diff(array1, array2);
+const diff = raj.diff(array1, array2);
 
 console.log(diff);
 
@@ -35,10 +35,10 @@ console.log(diff);
 ### Difference between base array and comparator array
 
 ```javascript
-let arrayBase = [1, 2, 3, 4];
-let arrayComparator = [3, 4, 5, 6];
+const arrayBase = [1, 2, 3, 4];
+const arrayComparator = [3, 4, 5, 6];
 
-let diff = raj.diffBase(arrayBase, arrayComparator)
+const diff = raj.diffBase(arrayBase, arrayComparator)
 
 console.log(diff);
 
@@ -49,10 +49,10 @@ console.log(diff);
 ### Common itens between Arrays
 
 ```javascript
-let arr1 = [1, 2, 3, 4];
-let arr2 = [4, 5, 6];
+const arr1 = [1, 2, 3, 4];
+const arr2 = [4, 5, 6];
 
-let common = raj.common(arr1, arr2);
+const common = raj.common(arr1, arr2);
 
 console.log(common);
 
@@ -62,9 +62,9 @@ console.log(common);
 ### Array Sum
 
 ```javascript
-let array = [5, 5, 10, 30];
+const array = [5, 5, 10, 30];
 
-let sum = raj.sumArray(array);
+const sum = raj.sumArray(array);
 
 console.log(sum);
 
@@ -74,9 +74,9 @@ console.log(sum);
 ### Random Item in Array 
 
 ```javascript
-let array = [5, 5, 10, 30];
+const array = [5, 5, 10, 30];
 
-let rand = raj.randItem(array);
+const rand = raj.randItem(array);
 
 console.log(rand);
 
@@ -88,10 +88,10 @@ console.log(rand);
 > This sh*t save my life on batch parallel processing
 
 ```javascript
-let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
-let numberOfItems = 5;
+const array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+const numberOfItems = 5;
 
-let batch = raj.split(array, numberOfItems);
+const batch = raj.split(array, numberOfItems);
 
 console.log(batch);
 
@@ -107,7 +107,7 @@ console.log(batch);
 
 ```javascript
 
-let expendables = [
+const expendables = [
     {queue: "a", data: "Barney Ross"},
     {queue: "a", data: "Lee Christmas"},
     {queue: "b", data: "Yin Yang"},
@@ -115,7 +115,7 @@ let expendables = [
     {queue: "c", data: "Paine"}
 ];
 
-let queues = raj.plop(expendables, 'queue');
+const queues = raj.plop(expendables, 'queue');
 
 console.log(queues);
 
